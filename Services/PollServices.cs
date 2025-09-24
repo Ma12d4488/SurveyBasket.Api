@@ -1,9 +1,8 @@
-﻿
-namespace SurveyBasket.Api.Services;
+﻿namespace SurveyBasket.Api.Services;
 
 public class PollServices : IPollServices
 {
-    private static   readonly List<Poll> _polls = [
+    private static readonly List<Poll> _polls = [
         new Poll { Id = 1, Title = "First Poll", Description = "This is the first poll" },
         new Poll { Id = 2, Title = "Second Poll", Description = "This is the second poll" },
         ];
